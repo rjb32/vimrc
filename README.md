@@ -1,9 +1,11 @@
 Installation
 ------------
 
-1. Clone this repository:
+1. Clone this repository
 
+```
     git clone --recursive https://github.com/rjab/vimrc.git
+```
 
 2. Add these lines to your .vimrc file to source the vimrc
 file in the repository:

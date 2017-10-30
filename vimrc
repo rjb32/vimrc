@@ -3,10 +3,7 @@ set nocompatible
 filetype off
 set background=dark
 
-" Vundle plugin management
-set rtp+=bundle/Vundle.vim
-call vundle#begin('bundle')
-call vundle#rc('bundle')
+call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
