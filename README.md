@@ -1,5 +1,9 @@
 Installation
 ------------
+Install build-essential, CMake and Python headers.
+```  
+    sudo apt-get install build-essential cmake python-dev python3-dev
+```
 
 1. Clone this repository:
 ```
