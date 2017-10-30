@@ -1,10 +1,12 @@
-Installation
+Requirements
 ------------
-Install build-essential, CMake and Python headers.
+Make sure that build-essential, CMake and Python headers are installed.
 ```  
     sudo apt-get install build-essential cmake python-dev python3-dev
 ```
 
+Installation
+------------
 1. Clone this repository:
 ```
     git clone --recursive https://github.com/rjab/vimrc.git
