@@ -4,8 +4,9 @@ filetype off
 set background=dark
 
 " Vundle plugin management
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+set rtp+=bundle/Vundle.vim
+call vundle#begin('bundle')
+call vundle#rc('bundle')
 
 Plugin 'VundleVim/Vundle.vim'
 
