@@ -3,6 +3,7 @@ set nocompatible
 filetype off
 set background=dark
 
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
