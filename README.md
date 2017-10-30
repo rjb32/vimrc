@@ -1,15 +1,21 @@
+My personal vim configuration.
+
 Installation
 ------------
+Make sure that build-essential, CMake and Python headers are installed.
+```  
+    sudo apt-get install build-essential cmake python-dev python3-dev
+```
 
 1. Clone this repository as your ~/.vim directory
-
 ```
     git clone --recursive https://github.com/rjab/vimrc.git ~/.vim
 ```
 
-3. Run the install.sh script
-
+2. Run the install.sh script
+```
     cd ~/.vim
     ./install.sh
+```
 
-4. Run vim and execute the `:PluginInstall` command
+3. Run vim and execute the `:PluginInstall` command.
