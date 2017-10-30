@@ -1,3 +1,5 @@
+My personal vim configuration.
+
 Requirements
 ------------
 Make sure that build-essential, CMake and Python headers are installed.
