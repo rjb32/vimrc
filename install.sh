@@ -5,4 +5,4 @@ git submodule update --init --recursive
 
 # build YouCompleteMe
 cd bundle/YouCompleteMe
-./install.py
+./install.py --clang-completer
