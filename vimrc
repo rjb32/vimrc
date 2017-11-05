@@ -52,3 +52,7 @@ map @ 0
 
 " Do not jump to latex warning
 let g:Tex_GotoError=0
+
+" Searches are case insensitive
+set ignorecase
+set smartcase
