@@ -56,3 +56,6 @@ let g:Tex_GotoError=0
 " Searches are case insensitive
 set ignorecase
 set smartcase
+
+au BufRead,BufNewFile *.h set filetype=cpp
+
